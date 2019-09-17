@@ -1,0 +1,67 @@
+.contact-main {
+    background-color: gray;
+    padding-top: 5%;
+    padding-bottom: 7%;
+    padding: 12%;
+}
+.contact-text h5 {
+    color: aliceblue;
+}
+.mar-1 {
+    width: 240px;
+    margin: auto;
+    padding: 8px;
+}
+textarea {
+    width: 50%;
+    height: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    margin-top: 42px;
+  }
+  .input-section label {
+      font-size: 22px;
+      margin: 12px;
+  }
+  .email2 {
+    font-size: 35px;
+}
+  @media only screen and (min-width : 320px) {
+    .email2 {
+        font-size: 22px;
+    }
+    textarea {
+        width: 100%;
+      
+       
+      }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+    /* .email2 {
+        font-size: 2px;
+    } */
+    textarea {
+        width: 100%;
+      
+       
+      }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    /* .email2 {
+        font-size: 2px;
+    } */
+    textarea {
+        width: 50%;
+      
+       
+      }
+}

@@ -1,0 +1,35 @@
+/* @import url('https://fonts.googleapis.com/css?family=Gugi'); */
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(fonts/Gugi-Regular.ttf);
+}
+
+.navbar-nav {
+    flex-direction: row;
+  }
+
+  body {
+    background-color: rgb(206, 128, 128);
+    /* font-family: 'Gugi', cursive; */
+
+  }
+  .nav-link {
+    padding-right: .5rem !important;
+    padding-left: .5rem !important;
+  
+    
+  }
+ 
+ .rehman {
+   border: 2px solid red;
+ } 
+  
+  /* Fixes dropdown menus placed on the right side */
+  .ml-auto .dropdown-menu {
+    left: auto !important;
+    right: 0px;
+  }
+  body {
+      background-color: rgb(199, 199, 199);
+  }

@@ -1,0 +1,37 @@
+.aboutstyle {
+   background-color: gray;
+  
+}
+.projectimg {
+    width:5%;
+     height:80%;
+}
+@media only screen and (min-width : 320px) {
+    .projectimg {
+        width:100%;
+         height:80%;
+    }
+}
+
+@media only screen and (min-width : 480px) {
+    .aboutstyle {
+        background-color: gray;
+        height: 100%;
+     }
+     .projectimg {
+        width:100%;
+         height:80%;
+    }
+}
+
+
+@media only screen and (min-width : 768px) {
+    .aboutstyle {
+        background-color: gray;
+        height: 100%;
+     }
+     .projectimg {
+        width:100%;
+         height:80%;
+    }
+}

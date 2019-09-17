@@ -1,0 +1,77 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+.text-content1 {
+    margin-top: 233px;
+}
+.main-home {
+    height: 90vh;
+
+    background-color: rgb(148, 148, 148);
+    
+}
+.fsizeh1 {
+    font-size: 22px;
+}
+.text-content {
+    margin-top: 222px;
+}
+.text-rehman {
+    margin-left:32px;
+}
+.margin-1 {
+    margin: 12px;
+}
+.personimg {
+    width:70%;
+    margin-top:80px;
+}
+
+/* @media only screen and (min-width : 320px) {
+    .text-content12 {
+        margin-top: 13px;
+    }
+    .main-home {
+        width: auto;
+        height: 100vh;
+        background-color: rgb(148, 148, 148);
+    }
+    .personimg {
+        width:70%;
+         
+    }
+} */
+
+@media only screen and (max-width : 480px) {
+    .text-content1 {
+        margin-top: 13px;
+    }
+    .personimg {
+        width:40%;
+        margin-top:30px;
+    }
+    .main-home {
+        width: auto;
+        height: 100vh;
+        background-color: rgb(148, 148, 148);
+    }
+    .fsizeh1 {
+        font-size: 52px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+   
+    .personimg {
+        width:70%;
+         
+    }
+    .main-home {
+        
+        height: 105vh;
+        background-color: rgb(148, 148, 148);
+    }
+  
+}

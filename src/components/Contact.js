@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import "./Contact.css";
+// import '../node_modules/font-awesome/css/font-awesome.min.css'; 
 import instra from './img/instagram.png';
 import git from './img/github-logo.png';
 import link from './img/linkedin.png';
@@ -10,36 +11,49 @@ export default class Contact extends Component {
             <div className="contact-main">
               <div className="container ">
               <div className="row">
-                  <div className="col-lg-6">
+
+                  <div className="col-lg-12">
                   <Animated animationIn="fadeIn" animationOut="fadeOut" isVisible={true}>
-                  <div className="contact-text text-center">
-              <h1>Just Say Hello</h1>
-              <h5>Feel free to contact me</h5>
-              <p>
-              i am always open to discussing new projects.
-              </p>
-             <label htmlFor=""></label> <h3 className="email2">abdulrehman1@aol.com</h3>
-             <label htmlFor=""></label> <h3>+923035353488</h3>
-             <div className="row  mar-1">
-                 <img className="mr-4" src={instra} alt="" width="50" height="50" />
-                 <img className="mr-4" src={git} alt="" width="50" height="50" />
-                 <img className="mr-4" src={link} alt="" width="50" height="50" />
-                
-             </div>
-             </div>
+                <div className="heading text-center pt-5">
+                <h1>Contact Rehman</h1>
+                <h5 >Get in touch with me</h5>
+                </div>
+                <div className="row mt-5">
+                <div className="col-md-4">
+                <div className="phone-1 text-center box box">
+                    <i class="fa fa-phone"></i>
+                </div>
+                      <div className="card-text mt-5 text-center">
+                      <p>Phone no</p>
+
+                      <h2>+923035353488</h2>
+                      </div>
+                </div>
+                <div className="col-md-4">
+                <div className="phone-1 text-center">
+                <i class="fa fa-envelope"></i>
+                    </div>
+                    <div className="card-text mt-5 text-center">
+                    <p>Email</p>
+                      <h2>abdulrehman1@aol.com</h2>
+                      </div>
+                </div>
+             
+                <div className="col-md-4">
+                <div className="phone-1 text-center">
+                <i class="fa fa-skype"></i>
+                    </div>
+                    <div className="card-text mt-5 text-center">
+                    <p>Skype</p>
+
+                      <h2>abdulrehman1_6</h2>
+                      </div>
+                </div>
+                    
+                </div>
              </Animated>
                   </div>
-                  <div className="col-lg-6 text-center">
-                  <Animated animationIn="fadeIn" animationOut="fadeOut" isVisible={true}>
-                               <div className="input-section">
-                                     <div>   <label htmlFor="">Name</label>   <input type="text" name="" id=""/></div>
-                                     <div> <label htmlFor="">Email</label>  <input  type="text" name="" id=""/></div>
-                                     <div> <label htmlFor=""></label> <textarea>Your Massage...</textarea></div>
-                                           <button className="btn bg-dark text-white mt-3 pl-4 pr-4 ">Send</button>
-                               </div>
-                               </Animated>
-                    
-                  </div>
+                 
                   </div>
               </div>
             </div>

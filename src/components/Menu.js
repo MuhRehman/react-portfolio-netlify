@@ -2,8 +2,9 @@ import React from 'react';
 // import logo from '../logo.svg';
 import logo from '../rehman.jpg';
 import logo1 from '../logo5122.png';
-// import '../components/Menu.css';
+
 import 'bootstrap/dist/css/bootstrap.css';
+import '../components/Menu.css';
 // import './App.css';
 // const logo = require('./logo512.png');
 import {Link} from 'react-router-dom';
@@ -35,18 +36,20 @@ const Menu = () => {
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
-  <div className="collapse navbar-collapse ml-5" id="navbarText">
+  <div className="collapse navbar-collapse " id="navbarText">
   <ul style={{ ...divStyle1,...{}}} className="navbar-nav ">
     <li style={{ ...divStyle,...{ marginLeft:"22px",}}} className="nav-item " data-toggle="collapse" data-target=".navbar-collapse.show">
 
   <Link style={{ ...divStyle,...{fontSize:"30px"}}} to="/" className="nav-link active">Home </Link>
     </li>
     <li className="nav-item mr-4 ml-4" data-toggle="collapse" data-target=".navbar-collapse.show">
-    <Link style={{ ...divStyle,...{fontSize:"30px"}}} to="/About"  className="nav-link active ">Projects</Link>
+    <Link style={{ ...divStyle,...{fontSize:"30px"}}} to="/Resume" className="nav-link active ">About</Link>
     </li>
+
     <li className="nav-item mr-4 ml-4" data-toggle="collapse" data-target=".navbar-collapse.show">
-    <Link style={{ ...divStyle,...{fontSize:"30px"}}} to="/Resume" className="nav-link active ">Resume</Link>
+    <Link style={{ ...divStyle,...{fontSize:"30px"}}} to="/About"  className="nav-link active ">Porfolio</Link>
     </li>
+    
     <li className="nav-item mr-4 ml-4" data-toggle="collapse" data-target=".navbar-collapse.show">
     <Link style={{ ...divStyle,...{fontSize:"30px"}}} to="/Contact" className="nav-link active">Contact</Link>
     </li>

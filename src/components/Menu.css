@@ -4,16 +4,12 @@
   src: url(fonts/Gugi-Regular.ttf);
 }
 
-.navbar-nav .nav-item  {
-  
-}
+
 .navbar-nav .nav-item .nav-link {
 font-size: large;
 margin-left: 42px;
 }
-.navbar-nav {
-    /* flex-direction: row; */
-  }
+
 
  
 

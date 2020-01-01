@@ -7,14 +7,14 @@ import About from "./components/About.1";
 import Contact from "./components/Contact";
 import Resume from "./components/Resume";
 import {BrowserRouter, Route , Switch} from 'react-router-dom';
-// import Body from './components/Body';
+
 
 function App() {
   return (
     <BrowserRouter>
     <div className="App">
        <Menu />
-     <Switch>
+       <Switch>
        <Route path="/" exact component = {Body} />
        <Route path="/About" component = {About} />
        <Route path="/Resume" component = {Resume} />
@@ -29,5 +29,5 @@ function App() {
 
 export default App;
 
-// import './About.css';
+
 

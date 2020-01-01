@@ -7,8 +7,7 @@ import logogit from './img/github-logo.png';
 import logolink from './img/linkedin.png';
 import logoinstr from './img/instagram.png';
 import {Animated} from "react-animated-css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+
 
   
  const  textstyle = {

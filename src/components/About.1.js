@@ -1,8 +1,6 @@
 import React from 'react';
 import logo13 from './img/rehman.png';
-import template1 from './img/template1.png';
-import template2 from './img/template2.png';
-import template3 from './img/template3.png';
+
 // import template4 from './img/tempale4';
 import {Animated} from "react-animated-css";
 import './About.css';

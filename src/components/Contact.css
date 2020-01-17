@@ -1,9 +1,10 @@
 .contact-main {
    background-image: url(img/maps1.png);
-     height: 710px;
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
+
+  background-position: center;
+  background-repeat: no-repeat; 
   background-size: cover;
+  height: 90vh;
 }
 body {
     /* background-color: rgb(148, 148, 148); */

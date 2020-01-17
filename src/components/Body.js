@@ -7,6 +7,7 @@ import logogit from './img/github-logo.png';
 import logolink from './img/linkedin.png';
 import logoinstr from './img/instagram.png';
 import {Animated} from "react-animated-css";
+import {Link} from 'react-router-dom';
 
 
   
@@ -55,14 +56,14 @@ const  Body =  () => {
                      </div>
                      </Animated>
                      <div className="btn-rehman ">
-                          <a href="/About">
+                          <Link to="/About">
                           <div className="btn btn-primary work-btn" id="btn-event1">
                              View my work 
                           <i className="fa fa-arrow-right ml-3"></i>
                           </div>
 
                           
-                          </a> 
+                          </Link> 
                           {/* <button>Rehman</button> */}
                           </div>
                     </div>

@@ -34,7 +34,8 @@ const About = () => {
                        <div className="porfolio1 text-center porfolio-animate">
                              <a href="" style={hiddenstyle}>.</a>
                            <div class="info">
-                           <a href="https://abdulrehman500.github.io/top-main-dentist/" style={astyle} >Visit Website</a>
+                           <a target="_blank" 
+                                    href="https://abdulrehman500.github.io/top-main-dentist/"  style={astyle} >Visit Website</a>
                             </div>
                            </div>
                        </div>
@@ -42,7 +43,8 @@ const About = () => {
                        <div className="porfolio2 text-center porfolio-animate2">
                        <a href="" style={hiddenstyle}>.</a>
                            <div class="info">
-                           <a href="http://royaltco.com/royal/freelancer-master/" style={astyle} >Visit Website</a>
+                           <a target="_blank"
+                                                       href="https://tender-archimedes-843b89.netlify.com/" style={astyle} >Visit Website</a>
                             </div>
                            
                            </div>
@@ -51,7 +53,8 @@ const About = () => {
                        <div className="porfolio3 text-center porfolio-animate3">
                        <a href="" style={hiddenstyle}>.</a>
                            <div class="info">
-                           <a href="http://royaltco.com/royal/ssl.checker1-master/" style={astyle} >Visit Website</a>
+                           <a  target="_blank"
+                            href="https://optimistic-darwin-f7997d.netlify.com/" style={astyle} >Visit Website</a>
                             </div>
                             
                            </div>
@@ -69,7 +72,8 @@ const About = () => {
                        <div className="porfolio4 text-center porfolio-animate4">
                        <a href="" style={hiddenstyle}>.</a>
                            <div class="info">
-                           <a href="http://royaltco.com/royal/construction/" style={astyle} >Visit Website</a>
+                           <a  target="_blank"
+                           href="https://affectionate-wozniak-871f53.netlify.com/" style={astyle} >Visit Website</a>
                             </div>
                            </div>
                        </div>
@@ -77,7 +81,8 @@ const About = () => {
                        <div className="porfolio5 text-center porfolio-animate5">
                        <a href="#" style={hiddenstyle}>.</a>
                            <div class="info">
-                           <a href="http://royaltco.com/royal/top-dentist-white-master/" style={astyle} >Visit Website</a>
+                           <a target="_blank"
+                            href="http://royaltco.com/royal/top-dentist-white-master/" style={astyle} >Visit Website</a>
                             </div>
                            </div>
                        </div>
@@ -85,7 +90,8 @@ const About = () => {
                        <div className="porfolio6 text-center porfolio-animate6">
                        <a href="" style={hiddenstyle}>.</a>
                            <div class="info">
-                           <a href="http://royaltco.com/royal/Eventer%20Landing%20Page/" style={astyle} >Visit Website</a>
+                           <a target="_blank" 
+                           href="https://optimistic-darwin-f7997d.netlify.com/" style={astyle} >Visit Website</a>
                             </div>
                            </div>
                        </div>

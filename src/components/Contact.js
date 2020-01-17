@@ -8,15 +8,13 @@ import {Animated} from "react-animated-css";
 export default class Contact extends Component {
     render() {
         return (
-            <div className="contact-main">
+            <div className="contact-main ">
               <div className="container ">
               <div className="row">
 
                   <div className="col-lg-12">
-                  <Animated animationIn="fadeIn" animationOut="fadeOut" isVisible={true}>
-                <div className="heading text-center pt-5">
-                <h1>Contact Rehman</h1>
-                <h5 >Get in touch with me</h5>
+                <div className="heading mt-5 text-center text-white">
+                <h1>Feel free to contact me anytime</h1>
                 </div>
                 <div className="row mt-5">
                 <div className="col-md-4">
@@ -51,7 +49,7 @@ export default class Contact extends Component {
                 </div>
                     
                 </div>
-             </Animated>
+             
                   </div>
                  
                   </div>
